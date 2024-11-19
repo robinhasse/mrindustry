@@ -1,8 +1,8 @@
 Type: Package
 Package: mrindustry
 Title: input data generation for the REMIND industry module
-Version: 0.4.2
-Date: 2024-11-06
+Version: 0.4.3
+Date: 2024-11-19
 Authors@R: c(
     person(given = "Falk", family = "Benke", email = "benke@pik-potsdam.de",
            role = c("aut", "cre")),
@@ -37,6 +37,7 @@ Imports:
     magclass (>= 6.16.1),
     magrittr,
     mrdrivers (>= 4.0.0),
+    mrcommons (>= 1.46.7),
     purrr,
     quitte (>= 0.3105.0),
     readODS,
@@ -49,7 +50,7 @@ Imports:
     tidyselect,
     zoo,
 Suggests:
-    mrremind (>= 0.195.0),
+    mrremind (>= 0.198.4),
     testthat,
 Encoding: UTF-8
 RoxygenNote: 7.3.2
